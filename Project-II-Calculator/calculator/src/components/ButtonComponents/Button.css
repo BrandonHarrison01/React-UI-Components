@@ -1,6 +1,6 @@
 .ActionButton {
     background-color: white;
-    border: 1px solid black;
+    border: .5px solid grey;
     width: 100px;
     height: 30px;
 }
@@ -10,14 +10,22 @@
     width: 100px;
 }
 
+.NumBtn {
+    width: 33.3%;
+    height: 21.5px;
+    background-color: white;
+    border: .5px solid grey;
+    margin: 0;
+}
+
 .Operators {
     display: flex;
     flex-direction: column;
 }
 
 .Operator {
-    background-color: red;
-    border: 1px solid black;
+    background-color: rgb(197, 0, 0);
+    border: .5px solid grey;
     height: 25px;
     width: 30px;
     color: white;

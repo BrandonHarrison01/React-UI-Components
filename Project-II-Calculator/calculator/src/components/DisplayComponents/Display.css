@@ -1,7 +1,8 @@
 .CalculatorDisplay {
-    border: 1px solid black;
+    border: .5px solid grey;
     margin: 0;
-    background-color: #444;
+    background-color: #333;
     color: white;
     text-align: right;
+    padding: 5px;
 }

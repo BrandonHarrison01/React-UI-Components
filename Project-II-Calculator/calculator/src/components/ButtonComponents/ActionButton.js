@@ -4,10 +4,23 @@ import './Button.css';
 import NumberButton from './NumberButton';
 
 function ActionButton() {
+
+    const numbers = [
+        { number: 7 },
+        { number: 8 },
+        { number: 9 },
+        { number: 4 },
+        { number: 5 },
+        { number: 6 },
+        { number: 1 },
+        { number: 2 },
+        { number: 3 }
+    ];
+
     return(
         <div>
             <button className='ActionButton'>clear</button>
-            <NumberButton />
+            <NumberButton numbers={numbers}/>
             <button className='ActionButton'>0</button>
         </div>
     )
