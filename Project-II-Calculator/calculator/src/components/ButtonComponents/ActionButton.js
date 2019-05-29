@@ -18,10 +18,10 @@ function ActionButton() {
     ];
 
     return(
-        <div>
-            <button className='ActionButton'>clear</button>
+        <div className='ActionButton'>
+            <button className='ClearO'>clear</button>
             <NumberButton numbers={numbers}/>
-            <button className='ActionButton'>0</button>
+            <button className='ClearO'>0</button>
         </div>
     )
 }
